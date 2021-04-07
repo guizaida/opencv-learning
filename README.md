@@ -1,1 +1,1 @@
-# opencv-learning
+這裡是我自己學習opencv的一些紀錄或者練習
