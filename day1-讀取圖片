@@ -1,0 +1,14 @@
+import cv2 as cv
+
+def get_image_info(image):
+    print(type(image))
+    print(image.shape)
+    print(image.size)
+    print(image.dtype)
+
+src=cv.imread(r"C:\Users\user\Desktop\11.jpg")#讀取指定圖片
+cv.namedWindow("input image",cv.WINDOW_AUTOSIZE)#開啟一個視窗
+cv.imshow("input image",src)#秀出title,+圖片
+get_image_info(src)#秀出圖片資訊
+cv.waitKey(0)
+
